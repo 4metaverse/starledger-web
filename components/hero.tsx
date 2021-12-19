@@ -13,7 +13,8 @@ const Hero = () => {
         <div className={styles.stars3}></div>
         <div className={styles.text}>
           <h2>
-            Buy a star. On Ethereum.
+            Limited NFT collection of 5,000 stars that represent stars in our
+            own galaxy. On the Ethereum blockchain. Powered by $METIS.
           </h2>
         </div>
       </div>
