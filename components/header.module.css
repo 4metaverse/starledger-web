@@ -16,9 +16,15 @@
 }
 
 .logo {
+  background-image: url(/images/starledger-logo.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: auto 36px;
   flex-grow: 1;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: normal;
+  height: 36px;
+  padding-left: 37px;
   text-transform: uppercase;
 }
 
@@ -43,5 +49,5 @@
   align-items: center;
   display: flex;
   margin: 0 auto;
-  width: 1000px;
+  width: 100%;
 }
