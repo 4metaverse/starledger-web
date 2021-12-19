@@ -1,0 +1,62 @@
+.copyright {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.footer {
+  align-items: center;
+  color: #666;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+}
+
+.footer div:first-of-type {
+  flex-grow: 1;
+}
+
+.socialItem a {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  color: transparent;
+  display: block;
+  height: 32px;
+  margin-left: 20px;
+  overflow: hidden;
+  width: 32px;
+}
+
+.socialItem a.github {
+  background-image: url(/images/github-icon-gray.svg);
+}
+
+.socialItem a.github:hover {
+  background-image: url(/images/github-icon-white.svg);
+}
+
+.socialItem a.instagram {
+  background-image: url(/images/instagram-icon-gray.svg);
+}
+
+.socialItem a.instagram:hover {
+  background-image: url(/images/github-icon-white.svg);
+}
+
+.socialItem a.twitter {
+  background-image: url(/images/twitter-icon-gray.svg);
+}
+
+.socialItem a.twitter:hover {
+  background-image: url(/images/twitter-icon-white.svg);
+}
+
+.socialList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

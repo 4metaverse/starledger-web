@@ -1,0 +1,16 @@
+* {
+  font-family: Futura, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  margin: 0;
+}
