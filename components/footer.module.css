@@ -4,10 +4,8 @@
 }
 
 .footer {
-  align-items: center;
   color: #666;
   bottom: 0;
-  display: flex;
   left: 0;
   padding: 20px;
   position: fixed;
@@ -59,4 +57,11 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
 }
