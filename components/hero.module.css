@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.logo {
+  height: 25%;
+}
+
 .stars {
   width: 1px;
   height: 1px;
@@ -574,10 +578,10 @@
   top: 0;
 }
 
-.text h2 {
+.text p {
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
 @keyframes animStar {

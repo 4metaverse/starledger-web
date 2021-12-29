@@ -1,6 +1,4 @@
-import { useState } from "react";
-
-import Button from "./button";
+import LinkButton from "./linkButton";
 
 import styles from "./hero.module.css";
 
@@ -12,10 +10,12 @@ const Hero = () => {
         <div className={styles.stars2}></div>
         <div className={styles.stars3}></div>
         <div className={styles.text}>
-          <h2>
+          <img className={styles.logo} src="/images/starledger-logo.svg" />
+          <p>
             Limited NFT collection of 5,000 stars that represent stars in our
-            own galaxy. On the Ethereum blockchain. Powered by $METIS.
-          </h2>
+            own galaxy.
+          </p>
+          <LinkButton href="https://app.starledger.org">Launch App</LinkButton>
         </div>
       </div>
     </>
