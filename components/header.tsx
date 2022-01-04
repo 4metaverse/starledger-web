@@ -23,7 +23,7 @@ const Header = () => {
               </li>
             </ul>
           </nav> */}
-          <LinkButton href="https://app.starledger.org">Launch App</LinkButton>
+          <LinkButton color="primary" href="https://app.starledger.org">Launch App</LinkButton>
         </section>
       </header>
     </>

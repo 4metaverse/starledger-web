@@ -2,14 +2,16 @@ import { NextPage } from "next";
 
 import styles from "./linkButton.module.css";
 
-const LinkButton: NextPage<{ href: string; icon?: string }> = ({
-  children,
-  href,
-  icon,
-}) => {
+const LinkButton: NextPage<{
+  color: "primary" | "secondary";
+  href: string;
+  icon?: string;
+}> = ({ children, color, href, icon }) => {
   return (
     <a
-      className={[styles.button].concat(icon ? styles.icon : null).join(" ")}
+      className={[styles.button, icon ? styles.icon : null, styles[color]].join(
+        " "
+      )}
       href={href}
       style={{ backgroundImage: icon ? `url(/images/${icon}.svg)` : null }}
     >

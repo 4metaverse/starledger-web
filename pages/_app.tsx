@@ -6,7 +6,7 @@ export default function StarLedgerWeb({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>StarLedger</title>
+        <title>StarLedger | Minting starts Feb 8</title>
         <meta charSet="UTF-8" />
         <meta
           name="viewport"

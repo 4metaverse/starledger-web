@@ -30,6 +30,26 @@ const Footer = () => {
                   Twitter
                 </a>
               </li>
+              <li className={styles.socialItem}>
+                <a
+                  className={styles.discord}
+                  href="https://discord.gg/gfwHXh8P"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Discord
+                </a>
+              </li>
+              <li className={styles.socialItem}>
+                <a
+                  className={styles.telegram}
+                  href="https://t.me/starledger"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Telegram
+                </a>
+              </li>
             </ul>
           </div>
         </div>

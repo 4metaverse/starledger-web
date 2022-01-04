@@ -24,32 +24,54 @@
   display: block;
   height: 32px;
   margin-left: 20px;
+  opacity: .4;
   overflow: hidden;
+  transition: .25s opacity;
   width: 32px;
 }
 
+.socialItem a:hover {
+  opacity: 1;
+}
+
+.socialItem a.discord {
+  background-image: url(/images/discord-icon.svg);
+}
+
+.socialItem a.discord:hover {
+  background-image: url(/images/discord-icon.svg);
+}
+
 .socialItem a.github {
-  background-image: url(/images/github-icon-gray.svg);
+  background-image: url(/images/github-icon.svg);
 }
 
 .socialItem a.github:hover {
-  background-image: url(/images/github-icon-white.svg);
+  background-image: url(/images/github-icon.svg);
 }
 
 .socialItem a.instagram {
-  background-image: url(/images/instagram-icon-gray.svg);
+  background-image: url(/images/instagram-icon.svg);
 }
 
 .socialItem a.instagram:hover {
-  background-image: url(/images/github-icon-white.svg);
+  background-image: url(/images/github-icon.svg);
+}
+
+.socialItem a.telegram {
+  background-image: url(/images/telegram-icon.svg);
+}
+
+.socialItem a.telegram:hover {
+  background-image: url(/images/telegram-icon.svg);
 }
 
 .socialItem a.twitter {
-  background-image: url(/images/twitter-icon-gray.svg);
+  background-image: url(/images/twitter-icon.svg);
 }
 
 .socialItem a.twitter:hover {
-  background-image: url(/images/twitter-icon-white.svg);
+  background-image: url(/images/twitter-icon.svg);
 }
 
 .socialList {
@@ -64,4 +86,18 @@
   display: flex;
   margin: 0 auto;
   width: 100%;
+}
+
+@media screen and (max-width: 420px) {
+  .copyright {
+    margin-top: 20px;
+  }
+
+  .socialItem a {
+    margin: 0 5px;
+  }
+
+  .wrapper {
+    flex-direction: column-reverse;
+  }
 }

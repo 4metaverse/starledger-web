@@ -1,14 +1,18 @@
 .button {
   background: none;
-  background-color: #c1ab70;
   border: none;
   border-radius: 30px;
   color: black;
   cursor: pointer;
+  display: inline-block;
   font-size: 14px;
   padding: 15px 30px 15px 30px;
   text-transform: uppercase;
   transition: .25s background-color, .25s transform;
+}
+
+.button:hover {
+  text-decoration: none;
 }
 
 .button.icon {
@@ -18,8 +22,20 @@
   padding: 15px 30px 15px 61px;
 }
 
-.button:hover {
+.button.primary {
+  background-color: #c1ab70;
+}
+
+.button.primary:hover {
   background-color: #d8bf7d;
   text-decoration: none;
   transform: scale(1.1);
+}
+
+.button.secondary {
+  color: #CCC;
+}
+
+.button.secondary:hover {
+  color: white;
 }

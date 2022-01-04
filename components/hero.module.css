@@ -1,5 +1,6 @@
 .hero {
   height: 100vh;
+  height: -webkit-fill-available;
   overflow: hidden;
   position: relative;
 }
@@ -582,6 +583,12 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0 0 20px 0;
+}
+
+.text p.notice {
+  color: #c1ab70;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 @keyframes animStar {
