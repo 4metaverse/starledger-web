@@ -13,8 +13,9 @@ const Hero = () => {
           <img className={styles.logo} src="/images/starledger-logo.svg" />
           <p className={styles.notice}>Minting starts Feb 8</p>
           <p>
-            Limited NFT collection of 5,000 stars that represent stars in our
-            own galaxy.
+            Limited NFT collection of 5,000 stars
+            <br />
+            that represent stars in our own galaxy.
           </p>
           <p>
             {/* <LinkButton color="secondary" href="https://app.starledger.org">

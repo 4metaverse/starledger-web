@@ -88,9 +88,13 @@
   width: 100%;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) and  (min-height: 400px) {
   .copyright {
     margin-top: 20px;
+  }
+
+  .footer {
+    position: absolute;
   }
 
   .socialItem a {
